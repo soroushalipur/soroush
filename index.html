@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .flex-cantainer{
+        background-color: rgb(184, 142, 142);
+        display: flex;
+        justify-content: space-around;
+      }
+      #header {
+        background-color: lightslategrey;
+        color: rgb(10, 10, 10);
+        padding: 55px;
+        text-align: center;
+        font-size: 43px;
+      }
+      .cite{
+        background-color: palevioletred;
+        color: beige;
+        padding: 15px;
+        font-size: 25px;
+      }
+      .syrcle{
+        width: 100px;
+        height: 100px;
+        background-color: aquamarine;
+        border: 2px solid rgb(175, 175, 11);
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .flex-cantainer div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+</head>
+<body>
+  <h1>Three of the best movies of the year</h1>
+  <div class="flex-cantainer">
+    <div>
+      <div class="syrcle"></div>
+      <h1>Day Shift</h1>
+    </div>
+    <div>
+      <div class="syrcle"></div>
+      <h1>Prey</h1>
+    </div>
+    <div>
+      <div class="syrcle"></div>
+      <h1>Bullet Train</h1>
+    </div>
+  </div>
+   <h2 id="header">The best movies of this year</h2>
+   <h3 class="cite">Day Shift </h3>
+   <P style="font-size: 16px;">
+    The Day is about a father named Bud Jablonski who will do anything to provide a better life for his daughter. He cleans the city's public pool, but this job is just a cover for his real job.
+   </P>
+   <h4 class="cite">Prey</h4>
+   <P style="font-size: 16px;">
+    Prey is about a young woman named Naru who is told from 300 years ago in Comanche country and is a fierce and highly skilled warrior. Now Naru tries to protect his people from an alien predator.
+   </P>
+   <h5 class="cite">Bullet Train</h5>
+   <P style="font-size: 16px;">
+    Express Train is about five assassins who discover that their missions have something in common and board a fast-moving bullet train.
+   </P>
+</body>
+</html>
